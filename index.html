@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="assets/static/style.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+    <style type="text/tailwindcss">
+      @layer utilities {
+        .content-auto {
+          content-visibility: auto;
+        }
+      }
+    </style>
+    <title>Truc Pham CV</title>
+  </head>
+
+  <body>
+    <div class="flex justify-center my-8 px-4">
+      <div class="justify-center w-full max-w-4xl flex flex-col md:gap-8 gap-4">
+        <header>
+          <div id="information" class="w-full text-center">
+            <div class="text-3xl font-bold">Phạm Duy Trực</div>
+            <div class="text-xl font-semibold">Intern Fullstack Developer</div>
+            <div class="md:flex gap-2 justify-center">
+              <div class="flex gap-1 justify-center">
+                <div>Email:</div>
+                <a class="underline-link" href="mailto:trucpham04@proton.me">
+                  trucpham04@proton.me</a
+                >
+              </div>
+              <!-- <div>|</div> -->
+              <div class="flex gap-1 justify-center">
+                <div>Phone:</div>
+                <a href="sms:+84948835250" class="underline-link">
+                  +84 948835250
+                </a>
+              </div>
+              <!-- <div>|</div> -->
+              <div class="flex gap-1 justify-center">
+                <div>Address:</div>
+                <a
+                  href="https://maps.app.goo.gl/TxHBELwL6tXrH6sc9"
+                  class="underline-link open-new-window"
+                >
+                  District 11, Ho Chi Minh City
+                </a>
+              </div>
+            </div>
+            <div class="w-full flex justify-center gap-4">
+              <a
+                class="underline-link open-new-window"
+                href="https://github.com/PDT04"
+              >
+                <i class="fa fa-github"></i>
+                Github
+              </a>
+              <a class="underline-link open-new-window" href="">
+                <i class="fa fa-file"></i>
+                Resume/CV
+              </a>
+            </div>
+          </div>
+        </header>
+
+        <hr class="border-black" />
+
+        <main class="flex flex-col gap-6 md:gap-10">
+          <div id="summariy" class="container">
+            <div class="container__header">SUMMARY</div>
+            <div class="container__content">
+              Skilled in building user-friendly, visually appealing websites
+              using Vue.js, Vuex, and Vue Router. Strong communication
+              abilities and a focus on creating responsive, high-performance web
+              applications.
+            </div>
+          </div>
+
+          <div id="projects" class="container">
+            <div class="container__header">PROJECTS</div>
+            <div class="container__content flex flex-col gap-4 md:gap-6">
+              <!-- Start: First project -->
+              <div class="project">
+                <div class="project-header">
+                  <div class="project-header__name">TD Movie - Personal</div>
+                  <div class="project-header__time">08/2024</div>
+                </div>
+                <div class="project-content">
+                  <div class="project-content__section">
+                    <div class="font-semibold">Responsibility:</div>
+                    <ul>
+                      <li>
+                        Implement authentication and personal favorite movies
+                        feature using Firebase
+                      </li>
+                      <li>Design UX/UI with Vue.js</li>
+                      <li>Build a multi-page website using Vue Router</li>
+                      <li>Create a responsive layout with Bootstrap 5</li>
+                      <li>Fetch data by calling APIs using Axios</li>
+                    </ul>
+                  </div>
+
+                  <div class="">
+                    <div class="font-semibold flex gap-2">
+                      Technologies:
+                      <p class="font-normal">
+                        Vue.js, Vue Router, Firebase, Bootstrap, Sass, Axios
+                      </p>
+                    </div>
+                  </div>
+
+                  <div class="project-content__description">
+                    <div class="font-semibold flex gap-2">
+                      Project:
+                      <div class="font-normal flex gap-3">
+                        <p>Movie web app</p>
+                        <a
+                          href="https://td-movie.netlify.app/"
+                          class="underline-link italic open-new-window"
+                        >
+                          <i class="fa fa-link"></i>
+                          Link
+                        </a>
+
+                        <a
+                          href="https://github.com/PDT04/td-movie"
+                          class="underline-link italic open-new-window"
+                        >
+                          <i class="fa fa-github"></i>
+                          Github
+                        </a>
+                      </div>
+                    </div>
+
+                    <div class="font-semibold flex gap-2">
+                      Time:
+                      <p class="font-normal">07/2024 - 08/2024</p>
+                    </div>
+
+                    <div class="font-semibold">
+                      Description:
+
+                      <ul class="font-normal pl-6 list-disc">
+                        <li>
+                          Users can log in to save their favorite movies, TV
+                          series
+                        </li>
+                        <li>
+                          Features: Explore trending movies and series, search
+                          for specific titles, and view detailed information
+                          about each movie or series
+                        </li>
+                        <li>
+                          The application fetches dynamic movie data from
+                          <a
+                            href="https://www.themoviedb.org/"
+                            class="underline-link open-new-window"
+                          >
+                            TheMovieDatabase's APIs
+                          </a>
+                        </li>
+                        <li>
+                          Responsive layout, ensuring it works fine on both
+                          desktop and mobile
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End: First project -->
+
+              <!-- Start: Second project -->
+              <div class="project">
+                <div class="project-header">
+                  <div class="project-header__name">Book store - 4 members</div>
+                  <div class="project-header__time">05/2024</div>
+                </div>
+                <div class="project-content">
+                  <div class="project-content__section">
+                    <div class="font-semibold">Responsibility:</div>
+                    <ul>
+                      <li>Role: Backend</li>
+                      <li>Participate in design database system</li>
+                      <li>Wrote APIs for interaction with the frontend</li>
+                      <li>Implemented CRUD operations</li>
+                    </ul>
+                  </div>
+
+                  <div class="">
+                    <div class="font-semibold flex gap-2">
+                      Technologies:
+                      <p class="font-normal">PHP, mySQL</p>
+                    </div>
+                  </div>
+
+                  <div class="project-content__description">
+                    <div class="font-semibold flex gap-2">
+                      Project:
+                      <div class="font-normal flex gap-3">
+                        <p>E-commerce store</p>
+                        <!-- <a
+                          href="https://github.com/dhuyhoang1406/project_web2.git"
+                          class="underline-link italic"
+                        >
+                          <i class="fa fa-github"></i>
+                          Github
+                        </a> -->
+                      </div>
+                    </div>
+
+                    <div class="font-semibold flex gap-2">
+                      Time:
+                      <p class="font-normal">01/2024 - 05/2024</p>
+                    </div>
+
+                    <div class="font-semibold">
+                      Description:
+
+                      <ul class="font-normal pl-6 list-disc">
+                        <li>Customers can create an account for shopping</li>
+                        <li>
+                          Admins can manage orders, products and product
+                          information including categories, authors, and other
+                          relevant details
+                        </li>
+                        <li>
+                          Friendly and responsive layout ensuring an optimal
+                          viewing experience across a variety of devices
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <!-- End: Second project -->
+            </div>
+          </div>
+
+          <div id="skills" class="container">
+            <div class="container__header">SKILLS</div>
+            <div class="container__content">
+              <ul class="list-disc [&_ul]:list-[revert] pl-4">
+                <li>Languages: Javascript, Typescript, Java, PHP</li>
+                <li>
+                  Web development:
+                  <ul class="list-disc px-5">
+                    <li>Frontend: HTML, CSS, Tailwind, Bootstrap</li>
+                    <li>Javascript framework: Vue.js (Vue Router, Vuex)</li>
+                    <!-- <li>Backend: Node.js, Express</li> -->
+                    <li>API handling: Axios</li>
+                    <!-- <li>Other tools: </li>  -->
+                  </ul>
+                </li>
+                <li>Database: MySQL, SQL Server, Firebase</li>
+                <li>Tools: Git, Vite, ESlint, Prettier</li>
+              </ul>
+            </div>
+          </div>
+
+          <div id="education" class="container">
+            <div class="container__header">EDUCATION</div>
+            <div class="container__content">
+              <div class="border-l-2 pl-3 border-black">
+                <div class="flex justify-between">
+                  <div class="font-semibold text-lg">
+                    <a
+                      href="https://www.sgu.edu.vn/"
+                      class="underline-link open-new-window"
+                      >Saigon University</a
+                    >
+                  </div>
+                  <div class="italic">09/2022 - Present</div>
+                </div>
+                <div>Major: Information technology</div>
+              </div>
+            </div>
+          </div>
+        </main>
+      </div>
+    </div>
+
+    <script
+      src="https://kit.fontawesome.com/90750f5da1.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./assets/static/main.js"></script>
+  </body>
+</html>
